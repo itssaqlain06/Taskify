@@ -1,0 +1,52 @@
+/* Updated CSS */
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+.font-bold {
+  font-weight: 700;
+}
+
+.addTask {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+.addInput{
+  height: 60px;
+  margin-right: 5px;
+}
+.taskItem {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+/* Task list styling */
+.taskItem ul {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #428cff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
